@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.optim
+import torch.optim as optim
 
 
 def get_loss():

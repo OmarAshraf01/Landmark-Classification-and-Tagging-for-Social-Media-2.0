@@ -1,6 +1,7 @@
 import tempfile
 
 import torch
+import torch.optim as optim
 import numpy as np
 from livelossplot import PlotLosses
 from livelossplot.outputs import MatplotlibPlot
