@@ -1,11 +1,11 @@
 import tempfile
 
 import torch
-import torch.optim as optim
 import numpy as np
 from livelossplot import PlotLosses
 from livelossplot.outputs import MatplotlibPlot
 from tqdm import tqdm
+import torch.optim as optim # Ensure torch.optim is imported
 from src.helpers import after_subplot
 
 
